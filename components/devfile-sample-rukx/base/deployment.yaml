@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rukx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0047-tenant/tkrw-pr712-0075-0047-app/devfile-sample-rukx@sha256:c4b150f2346137c2aca7687017e64c5ee4eeb879da98ce7bccb99a697a22438f
         name: my-nodejs
         ports:
         - containerPort: 3001
